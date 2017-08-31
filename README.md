@@ -28,6 +28,6 @@ my_url_list = ["https://ipv4.webshare.io/"
 		,"http://ip4.me"
 		,"https://api.ipify.org/"
 		,"https://whatismyipaddress.com/"]
-ws.thread_getURL(my_url_list, threadCount = 20)
+ws.thread_getURL(my_url_list, threadCount = 20)  # threadCount delimits the amount of simultaneous threads.  
 pp.pprint(ws.RESULT_LIST)
 ```
