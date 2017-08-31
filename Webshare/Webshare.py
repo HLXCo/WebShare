@@ -11,7 +11,7 @@ class Webshare():
 	"""
 	def __init__(self, username, password):
 		__author__		= "Sergio Molanes"
-		__creation__	= "08/29/2017"
+		__creation__		= "08/29/2017"
 		__email__		= "sergio@hlx.co"
 		__site__		= "http://hlx.co"
 		self.PROXYSTRING = "http://{0}-{2}:{1}@proxyserver.webshare.io:3128/"
