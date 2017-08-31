@@ -1,10 +1,9 @@
 # Webshare
 Python 3.x wrapper for the Webshare proxy.  Additional support for randomization of proxies & multithreading support
 
-# To collect the package:
+Sign up to your free account here: https://proxy.webshare.io/
 
-From the Pypi package manager:
-pip install Webshare
+# To collect the package:
 
 From git version control:
 git clone https://github.com/HLXCo/Webshare.git
