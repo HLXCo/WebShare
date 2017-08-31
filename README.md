@@ -17,12 +17,11 @@ from pprint import PrettyPrinter
 
 # * -	Instantiate the object
 pp = PrettyPrinter(indent=4) 
-ws = Webshare("__Your_name_here__","__Your_password_here__")
+ws = Webshare("__Your_webshare_name_here__","__Your_webshare_password_here__")
 
 # * -	Basic usage for a single URL
 result = ws.getURL("https://ipv4.webshare.io/", True)
 print(result.text)
-
 
 # * -	Advanced usage with multithreading & randomization
 my_url_list = ["https://ipv4.webshare.io/"
